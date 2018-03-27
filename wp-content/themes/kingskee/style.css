@@ -48,27 +48,26 @@
         top: 0px; } }
   .nav .inner {
     position: relative;
-    overflow: hidden;
-    height: 58px;
+    height: 80px;
     text-align: center; }
     @media (min-width: 769px) {
       .nav .inner {
-        height: 75px; } }
+        height: 80px; } }
   .nav .logo {
-    height: 58px;
-    width: 170px;
+    height: 42px;
+    width: 148px;
     float: left;
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 0px;
     display: inline-block;
     z-index: 200;
     transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94); }
     @media (min-width: 769px) {
       .nav .logo {
-        height: 70px;
-        width: 192px;
-        left: 30px; } }
+        height: 42px;
+        width: 148px;
+        left: 80px; } }
     .nav .logo:hover {
       -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
       filter: alpha(opacity=70);
@@ -84,26 +83,16 @@
       left: 0;
       bottom: 0;
       margin: auto;
-      width: 170px;
+      width: 148px;
       height: auto; }
       @media (min-width: 769px) {
         .nav .logo .icon {
-          width: 222px;
-          height: 52px; } }
-    .nav .logo .icon-condenast {
-      position: absolute;
-      top: -5px;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      margin: auto;
-      width: 170px;
-      height: 23px;
-      display: block; }
+          width: auto;
+          height: auto; } }
   .nav .nav-wrap {
     background-color: #2D2D2D;
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -140,10 +129,11 @@
           width: 180px;
           height: 46px; } }
   .nav ul {
-    padding: 0 10px;
+    padding: 0 80px;
     position: relative;
     overflow: auto;
     width: 100%;
+    text-align: right;
     margin: 0;
     white-space: nowrap;
     z-index: 100;
@@ -157,46 +147,49 @@
       color: #fff;
       display: inline-block;
       position: relative;
-      line-height: 75px;
       overflow: hidden; }
-      .nav ul li::after {
-        display: none; }
-        @media (min-width: 769px) {
-          .nav ul li::after {
-            content: '';
-            position: absolute;
-            height: 2px;
-            bottom: 0px;
-            left: -1px;
-            width: 100%;
-            background: linear-gradient(91deg, #C19660 0%, #A17645 100%);
-            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-            -ms-transform: translate3d(-100%, 0, 0);
-            transform: translate3d(-100%, 0, 0);
-            display: block; } }
       .nav ul li:hover {
         text-decoration: none; }
         .nav ul li:hover a {
           opacity: 1;
           transition: opacity 0.6s; }
+          .nav ul li:hover a:after {
+            -ms-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            transition: all 0.6s ease; }
     .nav ul a {
       position: relative;
       outline: none;
-      padding: 11px 9px;
+      padding: 11px 0px;
+      margin: 0 20px;
       display: inline-block;
       text-decoration: none;
-      text-transform: uppercase;
+      text-transform: capitalize;
       color: #fff;
       font-family: "Domaine Medium";
-      font-size: 12px;
-      line-height: 20px;
-      letter-spacing: 2px;
+      font-size: 18px;
+      letter-spacing: 0.2px;
       opacity: 1;
-      transition: opacity 0.6s;
-      text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3); }
+      overflow: hidden;
+      transition: opacity 0.6s; }
       @media (min-width: 769px) {
         .nav ul a {
           opacity: .8; } }
+      .nav ul a::after {
+        display: none; }
+        @media (min-width: 769px) {
+          .nav ul a::after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            bottom: 0px;
+            left: -1px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.7);
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            -ms-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+            display: block; } }
     .nav ul .current-menu-item:after {
       -ms-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0);

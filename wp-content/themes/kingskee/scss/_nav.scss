@@ -31,28 +31,28 @@
     }
     .inner {
         position: relative;
-        overflow: hidden;
-        height: 58px;
+        // overflow: hidden;
+        height: 80px;
         text-align: center;
         @include breakpoint(tablet) {
-            height: 75px;
+            height: 80px;
         }
     }
 
     .logo {
-        height: 58px;
-        width: 170px;
+        height: 42px;
+        width: 148px;
         float: left;
         position: absolute;
-        top: 0;
+        top: 40px;
         left: 0px;
         display: inline-block;
         z-index: $z2;
         @include transition(opacity 0.3s $ease);
         @include breakpoint(tablet) {
-            height: 70px;
-            width: 192px;
-            left: 30px;
+            height: 42px;
+            width: 148px;
+            left: 80px;
         }
         &:hover {
             @include opacity(70);
@@ -66,31 +66,21 @@
             left: 0;
             bottom: 0;
             margin: auto;
-            width: 170px;
+            width: 148px;
             height: auto;
             @include breakpoint(tablet) {
-                width: 222px;
-                height: 52px;
+                width: auto;
+                height: auto;
             }
         }
-        .icon-condenast {
-            position: absolute;
-            top: -5px;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            margin: auto;
-            width: 170px;
-            height: 23px;
-            display: block;
-        }
+        
     }
 
 
     .nav-wrap {
         background-color: $dark;
         position: absolute;
-        top: 0;
+        top: 40px;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -138,11 +128,12 @@
     }
 
     ul {
-        padding: 0 10px;
+        padding: 0 80px;
         position: relative;
         overflow: auto;
         width: 100%;
         // display: block;
+        text-align: right;
         margin: 0;
         white-space: nowrap;
         z-index: $z1;
@@ -157,34 +148,19 @@
             color: $white;
             display: inline-block;
             position: relative;
-            line-height: $desktop-header-height;
+            // line-height: $desktop-header-height;
             overflow: hidden;
-            &::after {
-                display: none;
-                @include breakpoint(tablet) {
-                    content: '';
-                    position: absolute;
-                    height: 2px;
-                    bottom: 0px;
-                    left: -1px;
-                    width: 100%;
-                    // background: linear-gradient(91deg, #00ebb2, #a8d400);
-                    background: linear-gradient(91deg, #C19660 0%, #A17645 100%);
-                    @include transition(all 0.3s $ease);
-                    @include transform(translate3d(-100%,0,0));
-                    display: block;
-                }
-
-            }
+            
 
             &:hover {
                 text-decoration: none;
                 a {
                     opacity: 1;
                     @include transition(opacity $slow);
-                }
-                &::after {
-                    
+                    &:after {
+                        @include transform(translate3d(0,0,0));
+                        @include transition(all $slow ease);
+                    }
                 }
             }
             
@@ -193,21 +169,38 @@
         a {
             position: relative;
             outline: none;
-            padding: 11px 9px;
+            padding: 11px 0px;
+            margin: 0 20px;
             display: inline-block;
             text-decoration: none;
-            text-transform: uppercase;
+            text-transform: capitalize;
             color: $white;
             font-family: $domaine-medium;
-            font-size: 12px;
-            line-height: 20px;
-            letter-spacing: 2px;
+            font-size: 18px;
+            letter-spacing: 0.2px;
             opacity: 1;
+            overflow: hidden;
             @include transition(opacity $slow);
-            text-shadow: 0px 5px 10px rgba(0,0,0,0.3);
 
             @include breakpoint(tablet) {
                 opacity: .8;
+            }
+            &::after {
+                display: none;
+                @include breakpoint(tablet) {
+                    content: '';
+                    position: absolute;
+                    height: 1px;
+                    bottom: 0px;
+                    left: -1px;
+                    width: 100%;
+                    // background: linear-gradient(91deg, #00ebb2, #a8d400);
+                    background: rgba(255, 255, 255, 0.7);;
+                    @include transition(all 0.3s $ease);
+                    @include transform(translate3d(-100%,0,0));
+                    display: block;
+                }
+
             }
 
         }

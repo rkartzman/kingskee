@@ -65,11 +65,15 @@
                     'items_wrap' => '<ul>%3$s</ul>')
             ); ?>
             */ ?>
+            <ul class="header__list">
+                <li class="menu-item"><a href="" class="text__link">How it works</a></li>
+                <li class="menu-item"><a href="" class="text__link">About Us</a></li>
+                <li class="menu-item"><a href="" class="text__link">Find Your Trip</a></li>
+                
+            </ul>
             </div><!-- .nav-wrap -->
             <?php endif;?><!-- #main-nav -->
-            <div class="button__wrapper">
-                <a href="booking"><button class="a-btn a-btn--primary"><span>Book Now</span></button></a>
-            </div>
+            
             
         
 
