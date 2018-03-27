@@ -1,0 +1,85 @@
+/* _variables.scss */
+
+// Colors
+$black: #000000;
+$dark: #2D2D2D;
+$medium-dark: #8F8F8F;
+$medium-light: #CDCDCD;
+$light: #EEEEEE;
+$brand-green:  #01B35F;
+$brand-red: #FF3636;
+$brand-dark-green: #258433;
+$white: #ffffff;
+
+$dark-background: #10242F;
+
+// linear-gradient(-135deg, #00EAB1 0%, #3AE374 35%, #A7D401 100%);
+$brand-gradient: linear-gradient(135deg, #c19660, #a17645);
+$button-gradient: linear-gradient(-135deg, #C19660 15%, #A17645 100%);;
+
+
+$gray: #807f83;
+$l-gray: #e6e5e6;
+$ll-gray: #f3f0f0;
+$white: #fff;
+// $konnect-green: #53790F;
+$konnect-green: #258433;
+$brand-gold: #c19660;
+
+
+// Fonts
+
+$lota: 'Lota';
+$domaine-medium: 'Domaine Medium';
+$domaine-reg: 'Domain Regular';
+
+$primary-font: 'Domaine Regular';
+$secondary-font: 'Lota';
+
+// z-Index Scale
+$z1: 100;
+$z2: 200;
+$z3: 300;
+$z4: 400;
+$z5: 500;
+$z6: 600;
+$z7: 700;
+$z8: 800;
+$z9: 900;
+$z10: 1000;
+
+$desktop-header-height: 75px;
+
+// Media Query Variables
+// $small-5: 20;  // 320px *
+// $small-4: 25;  // 400px
+// $small-3: 30;  // 480px
+// $small-2: 40;  // 640px
+// $small: 43.125;  // 690px
+
+// $med-4: 46.8;  // 748px
+// $med-3: 48;  // 768px *
+// $med-2: 50;  // 800px
+// $med: 55;  // 880px
+
+// $large-5: 58;  // 928px
+// $large-4: 60;  // 960px
+// $large-3: 64;  // 1024px
+// $large-2: 68;  // 1088px
+// $large: 75;  // 1200px
+
+// $huge-2: 81.25;  // 1300px
+// $huge: 90;  // 1440px *
+
+// $before-ipad-l: 1023px;
+// $ipad-l: 1024px;
+
+// $huge-2: 80;  // 1280px
+// $huge: 120;  // 1920px
+
+
+// Easing
+$ease: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+$fast: .2s;
+$med: .3s;
+$slow: .6s;

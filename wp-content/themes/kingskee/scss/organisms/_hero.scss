@@ -1,0 +1,138 @@
+.hero__block {
+	min-height: 100%;
+	height: 100vh;
+	overflow: hidden;
+	max-height: 100%;
+	z-index: $z2;
+	&--short {
+		min-height: 520px;
+		height: 100%;
+		.block-content {
+			min-height: 520px;
+			height: 100%;
+			.contain {
+				position: absolute;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+				text-align: center;
+
+				@include breakpoint(tablet) {
+					left: initial;
+					right: initial;
+					text-align: left;
+					left: 12.5%;
+				}
+			}
+		}
+	}
+	.block-content {
+		position: relative;
+		height: 100%;
+
+		// .background {
+		// 	&:after {
+		//     content: '';
+		//     display: block;
+		//     height: 0;
+		//     width: 100%;
+		//     padding-bottom: 125%;
+		// 	}
+		// 	img {
+		// 		object-fit: cover;
+		// 	}
+		// }
+	}
+	.background {
+    z-index: $z1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    .mobile-bg {
+			z-index: $z2;
+			display: block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			@include breakpoint(mobileLarge) {
+				display: none;
+			}
+			&:after {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-color: rgba(0, 0, 0, 0.0);
+			}
+		}
+	}
+	.contain {
+		position: relative;
+		display: block;
+		z-index: $z1;
+		text-align: center;
+		top: calc(50% + 58px);
+		@include transform(translate3d(0,-50%,0));
+		@include breakpoint(tablet) {
+			// top: calc(50% + 75px);
+			top: 50%;
+
+		}
+		.inner {
+			max-width: 860px;
+			margin: 0 auto;
+			.heading-wrap {
+				max-width: 288px;
+				margin: 0 auto;
+
+				@include breakpoint(mobileLarge) {
+					max-width: none;
+				}
+			}
+			.primary {
+				font-family: $secondary-font;
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+		}
+	}
+	.more__details {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		z-index: $z2;
+		height: 80px;
+		.text__link {
+			color: $light;
+			margin: 0;
+		}
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 1px;
+			height: 50px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: 0 auto;
+			background: $light;
+		}
+	}
+}
+

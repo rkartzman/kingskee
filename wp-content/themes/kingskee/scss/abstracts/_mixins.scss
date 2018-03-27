@@ -1,0 +1,250 @@
+/*------------------------------------*\
+    #MIXINS
+\*------------------------------------*/
+
+// Breakpoints
+$xx-small: 375px;
+$x-small: 595px;
+$small:   768px;
+$medium:  768px;
+$mid:     1080px;
+$large:   1280px;
+$max:     1440px;
+
+@mixin breakpoint($point) {
+  // for large desktop layouts
+  @if $point == xlarge {
+    @media (min-width: $max) { @content; }
+  }
+  // for regular desktop layouts
+  @if $point == large {
+    @media (min-width: $large) { @content; }
+  }
+  // for small desktop layouts
+  @if $point == desktop {
+    @media (min-width: $mid) { @content; }
+  }
+  
+  // tablet
+  // large tablet layouts
+  @if $point == tabletLarge {
+    @media (min-width: $mid) { @content; }
+  }
+  // regular tablet layouts
+  // layouts > 768px
+  @if $point == tablet {
+    @media (min-width: $small + 1) { @content; }
+  }
+
+
+  // all encompassing mobile: everything < 768px
+  @if $point == mobile {
+    @media (max-width: $small)  { @content; }
+  }
+  // for medium mobile layouts < 595px
+  @if $point == mobileLarge {
+    @media (min-width: $x-small)  { @content; }
+  }
+  // for extra small mobile layouts, max of 375px
+
+  @if $point == mobileXsmall {
+    @media(max-width: $xx-small ) { @content; }
+  }
+
+}
+
+/** CSS Transition
+ *  Usage: @include transition(width,0.3s,ease-out);
+ */
+// @mixin transition($transition-property, $transition-time, $method) {
+//   -webkit-transition: $transition-property $transition-time $method;
+//   -moz-transition: $transition-property $transition-time $method;
+//   -ms-transition: $transition-property $transition-time $method;
+//   -o-transition: $transition-property $transition-time $method;
+//   transition: $transition-property $transition-time $method;
+// }
+
+@mixin clearfix {
+  &:before, &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -ms-transition:     $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@keyframes arrowBounce { 
+
+  0% {transform: translate3d(0,0,0); } // 0s
+  20% { transform: translate3d(0,0,0);} // .4s
+  40%{ transform: translate3d(0,-20px,0); } //.8s
+  50% { transform: translate3d(0,0,0); } // 1s
+  60% { transform: translate3d(0,-10px,0); }// 1.2s
+  80 { transform: translate3d(0,0,0); } //1.6s
+  100% { transform: translate3d(0,0,0); } // 2s
+}
+@-webkit-keyframes arrowBounce {
+  0% {transform: translate3d(0,0,0); } // 0s
+  20% { transform: translate3d(0,0,0);} // .4s
+  40%{ transform: translate3d(0,-20px,0); } //.8s
+  50% { transform: translate3d(0,0,0); } // 1s
+  60% { transform: translate3d(0,-10px,0); }// 1.2s
+  80 { transform: translate3d(0,0,0); } //1.6s
+  100% { transform: translate3d(0,0,0); } // 2s
+}
+@-moz-keyframes arrowBounce {
+  0% {transform: translate3d(0,0,0); } // 0s
+  20% { transform: translate3d(0,0,0);} // .4s
+  40%{ transform: translate3d(0,-20px,0); } //.8s
+  50% { transform: translate3d(0,0,0); } // 1s
+  60% { transform: translate3d(0,-10px,0); }// 1.2s
+  80 { transform: translate3d(0,0,0); } //1.6s
+  100% { transform: translate3d(0,0,0); } // 2s
+}
+
+@mixin opacity($opacity: 100) {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=#{$opacity})";
+    filter: alpha(opacity=$opacity);
+    -moz-opacity: $opacity / 100;
+    -khtml-opacity: $opacity / 100;
+    opacity: $opacity / 100;
+}
+
+@mixin box() {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@mixin b-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition($args...) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -o-transition: $args;
+    -ms-transition: $args;
+    transition: $args;
+}
+
+@mixin transition-delay($args) {
+    -webkit-transition-delay: $args;
+    -moz-transition-delay: $args;
+    -o-transition-delay: $args;
+    transition-delay: $args;
+}
+
+@mixin transform-origin($args) {
+    -webkit-transform-origin: $args;
+    -moz-transform-origin: $args;
+    -o-transform-origin: $args;
+    -ms-transform-origin: $args;
+    transform-origin: $args;
+}
+
+@mixin transform($args) {
+    -webkit-transform: $args;
+    -moz-transform: $args;
+    -o-transform: $args;
+    -ms-transform: $args;
+    transform: $args;
+}
+
+@mixin gradient($top, $bottom) {
+    background: -webkit-gradient(linear, left top, right top, from($top), to($bottom));
+    background: -webkit-linear-gradient(top, $top, $bottom);
+    background: -moz-linear-gradient(top, $top, $bottom);
+    background: -o-linear-gradient(top, $top, $bottom);
+    background: -ms-linear-gradient(top, $top, $bottom);
+    background: linear-gradient(top, $top, $bottom);
+}
+
+@mixin b-shadow($value, $color) {
+    -webkit-box-shadow: $value $color;
+    -moz-box-shadow: $value $color;
+    -o-box-shadow: $value $color;
+    -ms-box-shadow: $value $color;
+    box-shadow: $value $color;
+}
+
+@mixin user-select-none() {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+@mixin font-smoothing {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+//Flexbox
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+@mixin flex($values) {
+    -webkit-box-flex: $values;
+    -moz-box-flex:  $values;
+    -webkit-flex:  $values;
+    -ms-flex:  $values;
+    flex:  $values;
+}
+
+// Covert px to em
+// @function em($px, $base: $base-font-size) {
+//     @return ($px / $base) * 1em;
+// }
+
+// Vertical Center
+@mixin v-center($position: relative) {
+    position: $position;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+@mixin v-center-clear() {
+    position: relative;
+    top: auto;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -o-transform: none;
+    -ms-transform: none;
+    transform: none;
+}
+
+@mixin responsive-table {
+  display: table;
+  width: 100%;
+  vertical-align: middle;
+}
+@mixin responsive-tablerow {
+  display: table-row;
+  width: 100%;
+  vertical-align: middle;
+}
+@mixin responsive-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
