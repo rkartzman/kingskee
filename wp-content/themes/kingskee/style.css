@@ -350,7 +350,10 @@ body {
   position: relative;
   z-index: 0;
   overflow: auto;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background: url("./images/bg.jpg") top right no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
   body .footer__wrapper {
     opacity: 1; }
   body.overlay-open {
@@ -392,7 +395,7 @@ img {
   position: relative;
   display: block;
   z-index: 1;
-  background: #2D2D2D;
+  background: transparent;
   overflow: hidden;
   top: -75px;
   margin-bottom: -75px; }
@@ -558,14 +561,42 @@ img {
   line-height: 1.13;
   color: #fff; }
 
+.h2 {
+  font-family: "Domaine Medium";
+  font-size: 50px;
+  color: #1b3c4e;
+  font-weight: normal; }
+  .h2--sans {
+    font-family: "Lota";
+    font-weight: 600;
+    color: #fff; }
+
+.h4 {
+  font-family: "Lota";
+  font-size: 22px;
+  line-height: 1.45;
+  letter-spacing: 0.2px;
+  color: #1b3c4e;
+  font-weight: 600; }
+
+.h5 {
+  font-family: "Domaine Medium";
+  font-size: 20px;
+  letter-spacing: 0.2px; }
+  .h5--white {
+    color: #fff; }
+
 .style__guide .h1, .style__guide .h2, .style__guide .h3, .style__guide .h4 {
   color: #fff; }
 
 .primary {
-  font-family: "Lota";
-  font-size: 14px;
-  line-height: 22px;
-  color: #EEEEEE;
+  font-family: "Domaine Regular";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.2px;
+  line-height: 1.63;
+  font-weight: normal;
+  color: #1b3c4e;
   margin: 0;
   -webkit-font-smoothing: antialiased; }
   .primary--reg {
@@ -664,6 +695,10 @@ img {
             right: initial;
             text-align: left;
             left: 12.5%; } }
+  .hero__block--relative {
+    position: relative; }
+    .hero__block--relative .inner {
+      max-width: 960px; }
   .hero__block .block-content {
     position: relative;
     height: 100%; }
@@ -724,6 +759,19 @@ img {
         font-family: "Lota";
         margin-top: 20px;
         margin-bottom: 10px; }
+    .hero__block .contain .info__wrapper {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      margin: 0 -60px; }
+      .hero__block .contain .info__wrapper .info__stat {
+        -ms-flex: 1 0 33.333%;
+            flex: 1 0 33.333%;
+        max-width: 33.333%;
+        padding: 0 30px; }
   .hero__block .more__details {
     position: absolute;
     bottom: 0;

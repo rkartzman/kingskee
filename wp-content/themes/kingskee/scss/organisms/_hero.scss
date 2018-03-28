@@ -26,6 +26,12 @@
 			}
 		}
 	}
+	&--relative {
+		position: relative;
+		.inner {
+			max-width: 960px;
+		}
+	}
 	.block-content {
 		position: relative;
 		height: 100%;
@@ -106,6 +112,17 @@
 				font-family: $secondary-font;
 				margin-top: 20px;
 				margin-bottom: 10px;
+			}
+		}
+		.info__wrapper {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 0 -60px;
+			.info__stat {
+				flex: 1 0 33.333%;
+				max-width: 33.333%;
+				padding: 0 30px;
 			}
 		}
 	}

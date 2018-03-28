@@ -50,20 +50,66 @@ $fields = get_fields();
 <?php endforeach; ?>
 </div><!-- .home-block -->
 
-<div class="how-it-works ">
+<div class="how-it-works hero__block hero__block--relative ">
 	<?php foreach($fields['how_it_works'] as $item): ?>
 		<?php $bg = $item['how_it_works_background']; ?>
 		<?php $heading = $item['how_it_works_heading']; ?>
-		<h1><?= $bg; ?></h1>
-		<h1><?= $heading; ?></h1>
-		<?php foreach($item['how_it_works_text_module'] as $text) : ?>
-			<h1><?= $text['text_module_heading']; ?></h1>
-			<h1><?= $text['text_module_description']; ?></h1>
-		<?php endforeach; ?>
+        <div class="background" style="background-image: url(<?= $bg['url']; ?>)"></div>
+        <div class="contain">
+            <div class="inner">
+                <h2 class="h2"><?= $heading; ?></h1>
+                <div class="info__wrapper">
+            		<?php foreach($item['how_it_works_text_module'] as $text) : ?>
+                        <div class="info__stat">
+                			<h4 class="h4"><?= $text['text_module_heading']; ?></h4>
+                			<p class="primary"><?= $text['text_module_description']; ?></p>
+                        </div>
+            		<?php endforeach; ?>
+                </div>
+                
+            </div>
+        </div>
+        
 	<?php endforeach; ?>
 	
 
 </div><!-- .how-it-works -->
+
+<div class="main__form hero__block hero__block--relative">
+    <div class="contain">
+        <div class="inner">
+            <div class="form__wrapper">
+                <div class="container">
+                    <h2 class="h5 h5--white">Let's get started it only takes a few minutes</h2>
+                    <div class="madlibs is-active">
+                        <span class="h2 h2--sans">I'd like to go: </span>
+                        <select class="site__dropdown">
+                            <option value="hiking">Hiking</option>
+                            <option value="skiing">Skiing</option>
+                            
+                        </select>
+                    </div>
+                    <div class="madlibs is-invisible">
+                        <span class="h2 h2--sans">My budget is</span>
+                        <select class="site__dropdown">
+                            <option value="500">$500</option>
+                            <option value="1000">$1000</option>
+                            
+                        </select>
+                    </div>
+                    
+                </div>
+                <div class="button__wrapper">
+                    <a href="#"><button class="a-btn a-btn--secondary">Next Step</button><svg class="icon icon-arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+                </div>
+                    
+            </div>
+            
+        </div>
+        
+    </div>
+</div><!-- .main__form -->
+
 
 
 
