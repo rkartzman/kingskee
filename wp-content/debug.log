@@ -2375,3 +2375,14 @@
 [28-Mar-2018 20:45:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 54
 [28-Mar-2018 21:02:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 8
 [28-Mar-2018 21:02:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 54
+[01-Apr-2018 15:57:05 UTC] PHP Notice:  Undefined index: about_section in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 156
+[01-Apr-2018 15:57:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 156
+[01-Apr-2018 16:00:50 UTC] PHP Notice:  Array to string conversion in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 161
+[01-Apr-2018 16:00:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 8
+[01-Apr-2018 16:00:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 54
+[01-Apr-2018 16:00:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 156
+[01-Apr-2018 16:22:55 UTC] PHP Warning:  filemtime(): stat failed for /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/style.css in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/header.php on line 13
+[01-Apr-2018 16:22:56 UTC] PHP Warning:  filemtime(): stat failed for /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/style.css in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/header.php on line 13
+[01-Apr-2018 16:22:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 8
+[01-Apr-2018 16:22:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 54
+[01-Apr-2018 16:22:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 156

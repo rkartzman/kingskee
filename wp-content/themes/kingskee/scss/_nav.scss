@@ -40,12 +40,12 @@
     }
 
     .logo {
-        height: 42px;
-        width: 148px;
+        height: 26.5px;
+        width: 110px;
         float: left;
         position: absolute;
         top: 40px;
-        left: 0px;
+        left: 25px;
         display: inline-block;
         z-index: $z2;
         @include transition(opacity 0.3s $ease);

@@ -14,7 +14,7 @@
     <?php global $og_description, $page_animate, $nav_animate; ?>
     <?php wp_head(); ?>
 
-
+    <script src="https://js.stripe.com/v3/"></script>
     <!-- Page animation class -->
     <?php
     $page_animate_class = $page_animate ? ' animate-page' : '';

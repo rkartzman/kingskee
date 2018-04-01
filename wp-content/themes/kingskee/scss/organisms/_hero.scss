@@ -26,6 +26,99 @@
 			}
 		}
 	}
+	&.about__section {
+		overflow: auto;
+		height: auto;
+		margin-top: 100px;
+		.contain {
+			top: initial;
+			transform: none;
+			padding: 0 48px;
+			@include breakpoint(tabletLarge) {
+				padding: 0 80px;
+			}
+			.inner {
+				background: $dark-blue;
+				max-width: 100%;
+				display: block !important;
+				@include breakpoint(tabletLarge) {
+					display: flex !important;
+					align-items: flex-end;
+
+				}
+				.img__wrapper {
+					max-width: none;
+					@include breakpoint(tabletLarge) {
+						max-width: 600px;
+
+					}
+					img {
+						display: block;
+					}
+
+				}
+				.text__wrapper {
+					background: $dark-blue;
+					padding: 50px 0;
+					max-width: none;
+					text-align: left;
+					@include breakpoint(tabletLarge) {
+						padding: 100px 0;
+						text-align: left;
+						max-width: 47%;
+
+					}
+					.heading {
+						padding: 0 50px;
+						@include breakpoint(tabletLarge) {
+							padding: 0;
+							transform: translate3d(-25%,0,0);
+						}
+					}
+					.h2 {
+						color: $white;
+					}
+					.h5 {
+						margin: 0;
+					}
+					.primary {
+						color: $white;
+						margin: 0;
+						padding: 0 50px;
+						font-family: $primary-font;
+						@include breakpoint(tabletLarge) {
+							padding: 0 60px;
+						}
+					}
+				}
+			}
+		}
+	} 
+	&.how-it-works {
+		.contain {
+			top: initial;
+			transform: none;
+			padding: 60px 0;
+			@include breakpoint(mobileLarge) {
+				padding: 0;
+				top: calc(50% + 58px);
+				transform: translate3d(0,-50%,0);
+
+			}
+		}
+	}
+	&.main__form {
+		overflow: visible;
+		.contain {
+			.form__wrapper {
+				padding: 60px 48px;
+				@include breakpoint(mobileLarge) {
+					padding: 0;
+				}
+				
+			}
+		}
+	}
 	&--relative {
 		position: relative;
 		.inner {
@@ -115,14 +208,30 @@
 			}
 		}
 		.info__wrapper {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
-			margin: 0 -60px;
+			display: block;
+			@include breakpoint(mobileLarge) {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+
+			}
+			@include breakpoint(tabletLarge) {
+				margin: 0 -60px;
+
+			}
 			.info__stat {
-				flex: 1 0 33.333%;
-				max-width: 33.333%;
-				padding: 0 30px;
+				display: block;
+				text-align: left;
+				padding: 0 50px 0px 95px;
+				@include breakpoint(mobileLarge) {
+					text-align: center;
+					flex: 1 0 33.333%;
+					max-width: 33.333%;
+					padding: 0 20px;
+				}
+				@include breakpoint(tabletLarge) {
+					padding: 0 30px;
+				}
 			}
 		}
 	}

@@ -75,8 +75,8 @@ $fields = get_fields();
 
 </div><!-- .how-it-works -->
 
+
 <?php /*
-    <script src="https://js.stripe.com/v3/"></script>
 
     <form action="/charge" method="post" id="payment-form">
       <div class="form-row">
@@ -98,7 +98,7 @@ $fields = get_fields();
     <div class="contain">
         <div class="inner">
             <div class="form__wrapper">
-                <div class="container">
+                <div class="container madlibs-container">
                     <h2 class="h5 h5--white">Let's get started it only takes a few minutes</h2>
                     <div class="madlibs is-active">
                         <span class="h2 h2--sans">I'd like to go: </span>
@@ -108,19 +108,42 @@ $fields = get_fields();
                             
                         </select>
                     </div>
-                    <div class="madlibs is-invisible">
+                    <div class="madlibs  is-active">
                         <span class="h2 h2--sans">My budget is</span>
                         <select class="site__dropdown">
                             <option value="500">$500</option>
                             <option value="1000">$1000</option>
                             
                         </select>
+                        <div class="button__wrapper">
+                            <a href="#"><button class="a-btn a-btn--secondary">Next Step</button><svg class="icon icon-arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+                        </div>
+                    </div>
+                    <div class="madlibs  is-invisible input">
+                        <div class="input__wrapper">
+                            <span class="label">Your Name</span>
+                            <div class="input">
+                                <input type="text" name="" class="site__input">
+                                <span class="borders"></span>
+                                
+                            </div>
+                        </div>
+                        <div class="input__wrapper">
+                            <span class="label">Email Address</span>
+                            <div class="input">
+                                <input type="email" name="" class="site__input email__input">
+                                <span class="borders"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="madlibs is-invisible submit">
+                        <div class="button__wrapper">
+                            <a href="mailto:joe@example.com" ><button class="a-btn a-btn--secondary submit-form">Submit</button><svg class="icon icon-arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+                        </div>
                     </div>
                     
                 </div>
-                <div class="button__wrapper">
-                    <a href="#"><button class="a-btn a-btn--secondary">Next Step</button><svg class="icon icon-arrow"><use xlink:href="#icon-arrow"></use></svg></a>
-                </div>
+                
                     
             </div>
             
@@ -129,6 +152,25 @@ $fields = get_fields();
     </div>
 </div><!-- .main__form -->
 
+<div class="about__section hero__block hero__block--relative">
+<?php foreach($fields['about_us'] as $section): ?>
+    <?php $img = $section['about_us_image']; ?>
+    <div class="contain">
+        <div class="inner">
+            <div class="img__wrapper">
+                <img src="<?= $img['url']; ?>" alt="">
+            </div>
+            <div class="text__wrapper">
+                <div class="heading">
+                    <h5 class="h5 h5--white"><?= $section['about_us_label']; ?></h5>
+                    <h2 class="h2 h2--sans"><?= $section['about_us_heading']; ?></h2>
+                </div>
+                <p class="primary "><?= $section['about_us_description']; ?></p>
+            </div>    
+        </div>
+    </div>
+<?php endforeach; ?>
+</div><!--.about__section  -->
 
 
 

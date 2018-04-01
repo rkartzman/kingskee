@@ -3,17 +3,23 @@
 	width: 100%;
   height: 60px;
   background-color: rgba(255, 255, 255, 0.2);
+  font-size: 34px;
   font-family: $domaine-medium;
   font-weight: normal;
-	font-size: 50px;
 	color: $white;
 	font-weight: normal;
 	padding: 0 15px;
-	margin-left: 20px;
+	margin-left: 0;
+	margin-top: 10px;
 	background-image: url('./images/dropdown-arrow.svg');
 	background-repeat: no-repeat;
 	background-size: 24px;
 	background-position: right 20px center;
+	@include breakpoint(mobileLarge) {
+		font-size: 50px;
+		margin-left: 20px;
+		margin-top: 0;
+	}
 	&:after {
 		content: '';
 		display: block;
@@ -35,7 +41,129 @@ select {
 	}
 	.madlibs {
 		margin-bottom: 40px;
+		.button__wrapper {
+			margin-top: 50px;
+		}
+		&.input {
+			display: flex;
+			.input__wrapper {
+				max-width: 300px;
+				width: 100%;
+			}
+		}
 
 	}
 	
+}
+.input__wrapper {
+	margin-right: 30px;
+	position: relative;
+	.input {
+		position: relative;
+	}
+	.borders {
+		z-index: 0;
+		position: absolute;
+		width: 0;
+		height: 0;
+		bottom: 0;
+		left: 50%;
+		transform: translate3d(-50%,0,0);
+		display: inline-block;
+		border-bottom: 1px solid $white;
+		border-left: 0px solid $white;
+		border-right: 0px solid $white;
+		transition: width 0.4s cubic-bezier(0.19, 1, 0.22, 1) 340ms, height 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75) 145ms, border-left-width 0s cubic-bezier(0.25, 0.25, 0.75, 0.75) 340ms, border-right-width 0s cubic-bezier(0.25, 0.25, 0.75, 0.75) 340ms;
+
+		&:before, &:after {
+			content: '';
+			display: block;
+			position: absolute;
+			width: 0;
+			height: 0px;
+			border-top: 1px solid $white;
+			transition: width 150ms cubic-bezier(0.25, 0.25, 0.75, 0.75) 0s;
+		}
+		&:before {
+			top: 0;
+			left: 0;
+			
+		}
+		&:after {
+			top: 0;
+			right: 0;
+			left: auto;
+			
+
+		}
+	}
+
+}
+.site__input {
+	outline: none;
+	-webkit-appearance: none;
+	height: 60px;
+	max-width: 300px;
+	width: 100%;
+	background: transparent;
+	padding: 0;
+	border: 0;
+	border-bottom: solid 1px rgba(255, 255, 255, 0.7);
+	font-size: 18px;
+	color: $white;
+	letter-spacing: 0.2px;
+	padding: 12px 15px 0;
+	font-family: $primary-font;
+	transition: background-color $med ease-in-out;
+	&:focus {
+		background-color: rgba(255, 255, 255, 0.2);
+		transition: background-color $med ease-in-out;
+		& + span.borders {
+			width: 100%;
+			height: 100%;
+			border-left-width: 1px;
+			border-right-width: 1px;
+			transition: width 150ms, height 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75) 145ms, border-left-width 0s cubic-bezier(0.25, 0.25, 0.75, 0.75) 145ms, border-right-width 0s cubic-bezier(0.25, 0.25, 0.75, 0.75) 145ms;
+			&:before, &:after {
+				width: 50%;
+				transition: width 0.5s cubic-bezier(0.19, 1, 0.22, 1) 340ms;
+			}
+		}
+	}
+	
+}
+.madlibs-container {
+	// transform: translateY(calc(50vh - 237px));
+	transition: transform 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.madlibs {
+	position: relative;
+	left: 0;
+	transition: opacity 0.15s linear, transform 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	counter-reset: madlibs;
+	// left: -10000px;
+	opacity: 0;
+	transform-origin: left center;
+	transform: translate3d(0, 10%, 0);
+	transition: transform 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s linear;
+	&.is-active {
+		left: 0;
+		opacity: 1;
+		transform: translate3d(0,0,0);
+		transition: transform 0.45s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.15s linear;
+	}
+	&.is-invisible {
+		opacity: 0;
+		transform: translate3d(0, 10%, 0);
+		// visibility: hidden !important;
+	}
+	&.is-complete {
+		opacity: 0.3;
+		transform: scale(0.75);
+	}
+	.input {
+		.button__wrapper {
+			display: block;
+		}
+	}
 }

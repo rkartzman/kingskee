@@ -1,3 +1,68 @@
+var MadlibView = function(opts) {
+	this.opts = opts;
+	this.el = this.opts.el;
+	this.madlibs = this.el.find('.madlibs');
+	this.inactive = this.el.find('.madlibs.is-invisible');
+	this.active = this.el.find('.madlibs.is-active');
+
+  this.offset = 0;
+  var self = this;
+  this.init = function() {
+  	var self = this;
+  	var h = 0;
+  	// console.log(this.active);
+  	$(this.active).each(function(idx, madlib) {
+  		console.log(madlib);
+  		h += $(madlib).outerHeight();
+  	});
+  
+
+  	var strng = 'translateY(calc(50vh - ' + h + 'px))';
+  	$('.madlibs-container').css('transform', strng);
+
+  	self.offset = h;
+  	
+  	document.querySelector('.madlibs .button__wrapper').addEventListener('click', function(e) { self.startSteptwo(e)});
+  	document.querySelector('.madlibs .email__input').addEventListener('keypress', function(e) {self.handleEmail(e)});
+  },
+  this.hasScrolled = function() {
+  	var st = $(window).scrollTop();
+  },
+  this.startSteptwo = function(e) {
+
+  	e.preventDefault();
+  	var $thisChild = $(e.currentTarget).parent();
+  	console.log($thisChild);
+
+  	var nextChild = $thisChild.next();
+  	var submit = $('.madlibs.submit');
+  	if ($(nextChild).hasClass('is-invisible')) {
+  		$(nextChild).removeClass('is-invisible');
+  		$(nextChild).addClass('is-active');
+  		$(submit).removeClass('is-invisible');
+  		$(submit).addClass('is-active');
+  	}
+  	self.calcOffset(nextChild);
+  }, 
+  this.calcOffset = function(section) {
+  	self.offset += section.outerHeight();
+  	var strng = 'translateY(calc(50vh - ' + self.offset + 'px))';
+  	$('.madlibs-container').css('transform', strng);
+  },
+  this.handleEmail = function(e) {
+  	var $this = $(this);
+  	console.log(e)
+  },
+  this.resetFormFields = function() {
+    this.fromField.value = '';
+    this.toField.value = '';
+  },
+
+  _validateEmail = function(email) {
+    var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(email);
+  }
+}
 console.log('hey app');
 var $window = $(window),
     $body = $('body');
@@ -306,70 +371,73 @@ $(document).ready(function() {
     // var sv = new scrollView({el: $('.landing__section')});
     // sv.init();
     // var hv = new HeaderView({el: $('.nav')});
-    
+
     var sv = new ScrollInView({});
     sv.init();
     var hsv = new HeaderScrollView({el: $('.nav')});
     hsv.init();
 
+    var mv = new MadlibView({el: $('.madlibs-container')});
+    mv.init();
+
 });
-// Create a Stripe client.
-var stripe = Stripe('pk_test_jqA5FZUC0a234B7oAd7WLxQP');
+// // Create a Stripe client.
+// var stripe = Stripe('pk_test_jqA5FZUC0a234B7oAd7WLxQP');
 
-// Create an instance of Elements.
-var elements = stripe.elements();
+// // Create an instance of Elements.
+// var elements = stripe.elements();
 
-// Custom styling can be passed to options when creating an Element.
-// (Note that this demo uses a wider set of styles than the guide below.)
-var style = {
-  base: {
-    color: '#32325d',
-    lineHeight: '18px',
-    fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
-    fontSmoothing: 'antialiased',
-    fontSize: '16px',
-    '::placeholder': {
-      color: '#aab7c4'
-    }
-  },
-  invalid: {
-    color: '#fa755a',
-    iconColor: '#fa755a'
-  }
-};
+// // Custom styling can be passed to options when creating an Element.
+// // (Note that this demo uses a wider set of styles than the guide below.)
+// var style = {
+//   base: {
+//     color: '#32325d',
+//     lineHeight: '18px',
+//     fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+//     fontSmoothing: 'antialiased',
+//     fontSize: '16px',
+//     '::placeholder': {
+//       color: '#aab7c4'
+//     }
+//   },
+//   invalid: {
+//     color: '#fa755a',
+//     iconColor: '#fa755a'
+//   }
+// };
 
-// Create an instance of the card Element.
-var card = elements.create('card', {style: style});
+// // Create an instance of the card Element.
+// var card = elements.create('card', {style: style});
 
-// Add an instance of the card Element into the `card-element` <div>.
-card.mount('#card-element');
+// // Add an instance of the card Element into the `card-element` <div>.
+// card.mount('#card-element');
 
-// Handle real-time validation errors from the card Element.
-card.addEventListener('change', function(event) {
-  var displayError = document.getElementById('card-errors');
-  if (event.error) {
-    displayError.textContent = event.error.message;
-  } else {
-    displayError.textContent = '';
-  }
-});
+// // Handle real-time validation errors from the card Element.
+// card.addEventListener('change', function(event) {
+//   var displayError = document.getElementById('card-errors');
+//   if (event.error) {
+//     displayError.textContent = event.error.message;
+//   } else {
+//     displayError.textContent = '';
+//   }
+// });
 
-// Handle form submission.
-var form = document.getElementById('payment-form');
-form.addEventListener('submit', function(event) {
-  event.preventDefault();
+// // Handle form submission.
+// var form = document.getElementById('payment-form');
+// form.addEventListener('submit', function(event) {
+//   event.preventDefault();
 
-  stripe.createToken(card).then(function(result) {
-    if (result.error) {
-      // Inform the user if there was an error.
-      var errorElement = document.getElementById('card-errors');
-      errorElement.textContent = result.error.message;
-    } else {
-      // Send the token to your server.
-      stripeTokenHandler(result.token);
-    }
-  });
-});
+//   stripe.createToken(card).then(function(result) {
+//     if (result.error) {
+//       // Inform the user if there was an error.
+//       var errorElement = document.getElementById('card-errors');
+//       errorElement.textContent = result.error.message;
+//     } else {
+//       // Send the token to your server.
+//       stripeTokenHandler(result.token);
+//     }
+//   });
+// });
 
 var ScrollInView = function(opts) {
   

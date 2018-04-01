@@ -306,10 +306,13 @@ $(document).ready(function() {
     // var sv = new scrollView({el: $('.landing__section')});
     // sv.init();
     // var hv = new HeaderView({el: $('.nav')});
-    
+
     var sv = new ScrollInView({});
     sv.init();
     var hsv = new HeaderScrollView({el: $('.nav')});
     hsv.init();
+
+    var mv = new MadlibView({el: $('.madlibs-container')});
+    mv.init();
 
 });

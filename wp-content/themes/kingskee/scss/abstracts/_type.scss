@@ -26,19 +26,35 @@
 
 .h1 {
 	font-family: $lota;
-	font-size: 80px;
-	line-height: 1.13;
+	font-size: 40px;
+	// line-height: 1.57;
 	color: $white;
+	@include breakpoint(mobileLarge) {
+		font-size: 80px;
+		line-height: 1.13;	
+	}
 }
 .h2 {
 	font-family: $domaine-medium;
-	font-size: 50px;
 	color: $dark-text;
 	font-weight: normal;
+	font-size: 34px;
+	@include breakpoint(mobileLarge) {
+		
+		font-size: 50px;
+	}
 	&--sans {
 		font-family: $lota;
 		font-weight: 600;
 		color: $white;
+	}
+}
+.h3 {
+	font-family: $lota;
+	font-size: 34px;
+	font-weight: normal;
+	@include breakpoint(mobileLarge) {
+		font-size: 50px;
 	}
 }
 .h4 {
@@ -58,7 +74,16 @@
 	}
 }
 
+.label {
+	font-family: $primary-font;
+	line-height: 1.83;
+	letter-spacing: 0.2px;
+	color: $white;
+	font-weight: normal;
+	text-transform: capitalize;
+	display: block;
 
+}
 
 .style__guide {
 	.h1, .h2, .h3, .h4 {
