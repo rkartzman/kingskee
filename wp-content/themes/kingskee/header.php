@@ -68,7 +68,7 @@
             <ul class="header__list">
                 <li class="menu-item"><a href="" class="text__link">How it works</a></li>
                 <li class="menu-item"><a href="" class="text__link">About Us</a></li>
-                <li class="menu-item"><a href="" class="text__link">Find Your Trip</a></li>
+                <li class="menu-item trip__finder"><a href="" class="text__link">Find Your Trip</a></li>
                 
             </ul>
             </div><!-- .nav-wrap -->

@@ -1,7 +1,14 @@
 <?php 
-$fields = get_fields();
+$id = $post->ID;
+$fields = get_fields($id);
 // var_dump($fields['hero_carousel']);
+
+
+
+
+
 ?>
+
 
 <?php global $module; ?>
 <div class="home-block hero__block media-block mobile-detect "><!-- ADD .VIDEO-BLOCK CLASS if YOU NEED TO -->
@@ -93,16 +100,22 @@ $fields = get_fields();
 
       <button>Submit Payment</button>
     </form>
+     
      */  ?>
+     
+
 <div class="main__form hero__block hero__block--relative">
     <div class="contain">
         <div class="inner">
             <div class="form__wrapper">
                 <div class="container madlibs-container">
+
+                    <form class="email-form" method="post" name="email-form" action="">
+                        
                     <h2 class="h5 h5--white">Let's get started it only takes a few minutes</h2>
                     <div class="madlibs is-active">
                         <span class="h2 h2--sans">I'd like to go: </span>
-                        <select class="site__dropdown">
+                        <select class="site__dropdown" name="activity">
                             <option value="hiking">Hiking</option>
                             <option value="skiing">Skiing</option>
                             
@@ -110,7 +123,7 @@ $fields = get_fields();
                     </div>
                     <div class="madlibs  is-active">
                         <span class="h2 h2--sans">My budget is</span>
-                        <select class="site__dropdown">
+                        <select class="site__dropdown" name="budget">
                             <option value="500">$500</option>
                             <option value="1000">$1000</option>
                             
@@ -123,7 +136,7 @@ $fields = get_fields();
                         <div class="input__wrapper">
                             <span class="label">Your Name</span>
                             <div class="input">
-                                <input type="text" name="" class="site__input">
+                                <input type="text" name="name" class="site__input">
                                 <span class="borders"></span>
                                 
                             </div>
@@ -131,18 +144,22 @@ $fields = get_fields();
                         <div class="input__wrapper">
                             <span class="label">Email Address</span>
                             <div class="input">
-                                <input type="email" name="" class="site__input email__input">
+                                <input type="email" name="email" class="site__input email__input">
                                 <span class="borders"></span>
                             </div>
                         </div>
                     </div>
                     <div class="madlibs is-invisible submit">
                         <div class="button__wrapper">
-                            <a href="mailto:joe@example.com" ><button class="a-btn a-btn--secondary submit-form">Submit</button><svg class="icon icon-arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+                            <input type="submit" name="submit" value="submit" class="a-btn a-btn--secondary">
+                            <!-- <a href="mailto:joe@example.com" id="submit-btn"><button class="a-btn a-btn--secondary submit-form">Submit</button><svg class="icon icon-arrow"><use xlink:href="#icon-arrow"></use></svg></a> -->
+                            <svg class="icon icon-arrow"><use xlink:href="#icon-arrow"></use></svg>
                         </div>
                     </div>
                     
+                    </form>
                 </div>
+
                 
                     
             </div>

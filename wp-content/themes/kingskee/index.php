@@ -3,6 +3,8 @@
 
 get_header();
 
+// $id = $post->ID;
+// $fields = get_fields();
 
 ?>
 

@@ -21,7 +21,30 @@ var MadlibView = function(opts) {
   	$('.madlibs-container').css('transform', strng);
 
   	self.offset = h;
-  	
+  	self.form = document.querySelector('.email-form');
+  	// document.querySelector('#submit-btn').addEventListener('click', function(e) {
+  	// 	console.log('submitting');
+  	// 	self.form.submit();
+  	// });
+    
+  	document.querySelector('.email-form').addEventListener('submit', function(e) {
+  		console.log('submttting');
+  		e.preventDefault();
+  		var data = {action: 'submit_email', data: $(this).serialize()};
+  		console.log(data);
+	  	 $.ajax({
+				 url: '/wp-admin/admin-ajax.php',
+				 type: 'post',
+				 data: data, // it will serialize the form data
+	       dataType: 'json', 
+	       success: function(response) {
+	       	console.log(response);
+	       }
+	     })
+	     
+
+	    
+  	})
   	document.querySelector('.madlibs .button__wrapper').addEventListener('click', function(e) { self.startSteptwo(e)});
   	document.querySelector('.madlibs .email__input').addEventListener('keypress', function(e) {self.handleEmail(e)});
   },

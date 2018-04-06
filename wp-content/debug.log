@@ -2386,3 +2386,495 @@
 [01-Apr-2018 16:22:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 8
 [01-Apr-2018 16:22:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 54
 [01-Apr-2018 16:22:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 156
+[06-Apr-2018 01:13:58 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:13:58 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:13:58 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:14:36 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:14:36 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:14:36 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:15:22 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:15:22 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:15:22 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:15:55 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:15:55 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:15:55 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:16:02 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:16:02 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:16:02 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:16:07 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:16:07 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:16:07 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:16:22 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:16:22 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:16:22 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:16:41 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:16:41 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:16:41 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:16:54 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:16:54 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:16:54 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:17:22 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:17:22 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:17:22 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:18:19 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:18:19 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:18:19 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:18:23 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:18:23 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:18:23 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:18:51 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:19:12 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:19:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:20:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:20:18 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:20:18 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:20:18 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:20:24 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:20:24 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:20:24 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:20:38 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:20:38 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:20:38 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:21:27 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:21:27 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:21:27 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:21:36 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:21:36 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:21:36 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:21:49 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:21:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 16
+[06-Apr-2018 01:21:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 62
+[06-Apr-2018 01:21:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 168
+[06-Apr-2018 01:29:36 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:29:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 41
+[06-Apr-2018 01:29:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 87
+[06-Apr-2018 01:29:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 193
+[06-Apr-2018 01:29:48 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:29:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 41
+[06-Apr-2018 01:29:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 87
+[06-Apr-2018 01:29:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 193
+[06-Apr-2018 01:31:08 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:31:08 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 41
+[06-Apr-2018 01:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 87
+[06-Apr-2018 01:31:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 193
+[06-Apr-2018 01:31:16 UTC] PHP Notice:  Undefined index: message in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 41
+[06-Apr-2018 01:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 87
+[06-Apr-2018 01:31:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 193
+[06-Apr-2018 01:34:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 44
+[06-Apr-2018 01:34:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 90
+[06-Apr-2018 01:34:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 196
+[06-Apr-2018 01:34:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 44
+[06-Apr-2018 01:34:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 90
+[06-Apr-2018 01:34:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 196
+[06-Apr-2018 01:35:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 44
+[06-Apr-2018 01:35:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 90
+[06-Apr-2018 01:35:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 196
+[06-Apr-2018 01:37:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 44
+[06-Apr-2018 01:37:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 90
+[06-Apr-2018 01:37:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 196
+[06-Apr-2018 01:37:36 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:37:36 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:37:36 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:37:36 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:37:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 44
+[06-Apr-2018 01:37:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 90
+[06-Apr-2018 01:37:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 196
+[06-Apr-2018 01:39:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 44
+[06-Apr-2018 01:39:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 90
+[06-Apr-2018 01:39:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 196
+[06-Apr-2018 01:39:21 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:39:21 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:39:21 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:39:21 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:39:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 44
+[06-Apr-2018 01:39:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 90
+[06-Apr-2018 01:39:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 196
+[06-Apr-2018 01:42:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 51
+[06-Apr-2018 01:42:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 97
+[06-Apr-2018 01:42:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 203
+[06-Apr-2018 01:42:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 51
+[06-Apr-2018 01:42:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 97
+[06-Apr-2018 01:42:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 203
+[06-Apr-2018 01:42:54 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:42:54 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:42:54 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:42:54 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:43:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 51
+[06-Apr-2018 01:43:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 97
+[06-Apr-2018 01:43:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 203
+[06-Apr-2018 01:46:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 43
+[06-Apr-2018 01:46:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 89
+[06-Apr-2018 01:46:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 195
+[06-Apr-2018 01:46:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 43
+[06-Apr-2018 01:46:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 89
+[06-Apr-2018 01:46:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 195
+[06-Apr-2018 01:46:35 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:46:35 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:46:35 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:46:35 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:46:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 43
+[06-Apr-2018 01:46:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 89
+[06-Apr-2018 01:46:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 195
+[06-Apr-2018 01:53:00 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:53:00 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:53:00 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:53:00 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:53:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 43
+[06-Apr-2018 01:53:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 89
+[06-Apr-2018 01:53:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 195
+[06-Apr-2018 01:55:17 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:55:17 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:55:17 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:55:17 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:55:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 46
+[06-Apr-2018 01:55:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 92
+[06-Apr-2018 01:55:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 198
+[06-Apr-2018 01:56:43 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:56:43 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:56:43 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:56:43 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:57:39 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:57:39 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:57:39 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:57:39 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 01:57:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 46
+[06-Apr-2018 01:57:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 92
+[06-Apr-2018 01:57:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 198
+[06-Apr-2018 01:58:06 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 01:58:06 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 01:58:06 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 01:58:06 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 02:16:21 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 02:16:21 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 02:16:21 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 02:16:21 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 02:16:53 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 02:16:53 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 02:16:53 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 02:16:53 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 02:17:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 46
+[06-Apr-2018 02:17:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 92
+[06-Apr-2018 02:17:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 199
+[06-Apr-2018 02:17:18 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 02:17:18 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 02:17:18 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 02:17:18 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 02:17:45 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 4
+[06-Apr-2018 02:17:45 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 5
+[06-Apr-2018 02:17:45 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 6
+[06-Apr-2018 02:17:45 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 7
+[06-Apr-2018 02:18:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 46
+[06-Apr-2018 02:18:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 92
+[06-Apr-2018 02:18:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 199
+[06-Apr-2018 02:20:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 39
+[06-Apr-2018 02:20:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 85
+[06-Apr-2018 02:20:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 192
+[06-Apr-2018 02:23:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 39
+[06-Apr-2018 02:23:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 85
+[06-Apr-2018 02:23:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 192
+[06-Apr-2018 02:27:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 39
+[06-Apr-2018 02:27:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 85
+[06-Apr-2018 02:27:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 192
+[06-Apr-2018 02:27:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 39
+[06-Apr-2018 02:27:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 85
+[06-Apr-2018 02:27:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 192
+[06-Apr-2018 02:28:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 14
+[06-Apr-2018 02:28:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 60
+[06-Apr-2018 02:28:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 167
+[06-Apr-2018 02:30:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 14
+[06-Apr-2018 02:30:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 60
+[06-Apr-2018 02:30:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 167
+[06-Apr-2018 14:24:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 14
+[06-Apr-2018 14:24:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 60
+[06-Apr-2018 14:24:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 168
+[06-Apr-2018 14:25:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 14
+[06-Apr-2018 14:25:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 60
+[06-Apr-2018 14:25:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 168
+[06-Apr-2018 14:36:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 14
+[06-Apr-2018 14:36:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 60
+[06-Apr-2018 14:36:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 168
+[06-Apr-2018 14:41:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 14
+[06-Apr-2018 14:41:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 60
+[06-Apr-2018 14:41:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 168
+[06-Apr-2018 14:48:02 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 14:48:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 14
+[06-Apr-2018 14:48:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 60
+[06-Apr-2018 14:48:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 168
+[06-Apr-2018 14:48:10 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 14:48:18 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 14:48:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 14
+[06-Apr-2018 14:48:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 60
+[06-Apr-2018 14:48:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 168
+[06-Apr-2018 14:55:54 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 14:56:03 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 14:56:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 14:56:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 14:56:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 14:56:10 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 14:56:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 14:56:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 14:56:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:07:31 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:07:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:07:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:07:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:07:34 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:07:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:07:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:07:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:10:01 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:11:49 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:11:49 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/index.php on line 6
+[06-Apr-2018 15:11:49 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 15:11:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:11:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:11:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:13:22 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:13:22 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/index.php on line 6
+[06-Apr-2018 15:13:22 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 15:13:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:13:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:13:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:13:58 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:13:58 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/index.php on line 6
+[06-Apr-2018 15:13:58 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 15:13:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:13:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:13:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:14:37 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:37 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:37 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:44 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:44 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:46 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:46 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:49 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:49 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:51 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:58 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:14:58 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:00 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:04 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:04 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:04 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:05 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:09 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:09 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:41 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:45 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:15:45 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/index.php on line 6
+[06-Apr-2018 15:15:45 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 15:15:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:15:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:15:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:16:05 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:16:06 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:16:06 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/index.php on line 6
+[06-Apr-2018 15:16:06 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 15:16:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:16:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:16:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:16:17 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:16:17 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:18:06 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:19:54 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:19:57 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:20:09 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:20:09 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/index.php on line 6
+[06-Apr-2018 15:20:09 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 15:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:20:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:20:35 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:20:43 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:20:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/index.php on line 6
+[06-Apr-2018 15:20:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 15:20:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:20:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:20:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:20:54 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:21:48 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:21:56 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:21:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/index.php on line 31
+[06-Apr-2018 15:21:57 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 15:21:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 15:21:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 15:21:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 15:22:55 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:24:57 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:26:58 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:29:01 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:50:59 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 80
+[06-Apr-2018 15:51:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cn_custom_post_type_event() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php:41
+Stack trace:
+#0 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(286): cn_register_custom_post_types('')
+#1 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/remykartzman/Sites/travel-app/kingskee/wp-settings.php(450): do_action('init')
+#4 /Users/remykartzman/Sites/travel-app/kingskee/wp-config-local.php(101): require_once('/Users/remykart...')
+#5 /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php(20): require_once('/Users/remykart...')
+#6 /Users/remykartzman/Sites/travel-app/kingskee/wp-load.php(37): require_once('/Users/remykart...')
+#7 /Users/remykartzman/Sites/travel-app/kingskee/wp-blog-header.php(13): require_once('/Users/remyka in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 41
+[06-Apr-2018 15:51:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cn_custom_post_type_event() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php:41
+Stack trace:
+#0 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(286): cn_register_custom_post_types('')
+#1 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/remykartzman/Sites/travel-app/kingskee/wp-settings.php(450): do_action('init')
+#4 /Users/remykartzman/Sites/travel-app/kingskee/wp-config-local.php(101): require_once('/Users/remykart...')
+#5 /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php(20): require_once('/Users/remykart...')
+#6 /Users/remykartzman/Sites/travel-app/kingskee/wp-load.php(37): require_once('/Users/remykart...')
+#7 /Users/remykartzman/Sites/travel-app/kingskee/wp-blog-header.php(13): require_once('/Users/remyka in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 41
+[06-Apr-2018 15:51:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cn_custom_post_type_event() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php:41
+Stack trace:
+#0 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(286): cn_register_custom_post_types('')
+#1 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/remykartzman/Sites/travel-app/kingskee/wp-settings.php(450): do_action('init')
+#4 /Users/remykartzman/Sites/travel-app/kingskee/wp-config-local.php(101): require_once('/Users/remykart...')
+#5 /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php(20): require_once('/Users/remykart...')
+#6 /Users/remykartzman/Sites/travel-app/kingskee/wp-load.php(37): require_once('/Users/remykart...')
+#7 /Users/remykartzman/Sites/travel-app/kingskee/wp-blog-header.php(13): require_once('/Users/remyka in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 41
+[06-Apr-2018 15:51:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cn_custom_post_type_event() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php:41
+Stack trace:
+#0 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(286): cn_register_custom_post_types('')
+#1 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/remykartzman/Sites/travel-app/kingskee/wp-settings.php(450): do_action('init')
+#4 /Users/remykartzman/Sites/travel-app/kingskee/wp-config-local.php(101): require_once('/Users/remykart...')
+#5 /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php(20): require_once('/Users/remykart...')
+#6 /Users/remykartzman/Sites/travel-app/kingskee/wp-load.php(37): require_once('/Users/remykart...')
+#7 /Users/remykartzman/Sites/travel-app/kingskee/wp-blog-header.php(13): require_once('/Users/remyka in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 41
+[06-Apr-2018 15:52:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cn_custom_post_type_event() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php:41
+Stack trace:
+#0 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(286): cn_register_custom_post_types('')
+#1 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/remykartzman/Sites/travel-app/kingskee/wp-settings.php(450): do_action('init')
+#4 /Users/remykartzman/Sites/travel-app/kingskee/wp-config-local.php(101): require_once('/Users/remykart...')
+#5 /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php(20): require_once('/Users/remykart...')
+#6 /Users/remykartzman/Sites/travel-app/kingskee/wp-load.php(37): require_once('/Users/remykart...')
+#7 /Users/remykartzman/Sites/travel-app/kingskee/wp-blog-header.php(13): require_once('/Users/remyka in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 41
+[06-Apr-2018 15:52:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cn_custom_post_type_event() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php:41
+Stack trace:
+#0 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(286): cn_register_custom_post_types('')
+#1 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/remykartzman/Sites/travel-app/kingskee/wp-settings.php(450): do_action('init')
+#4 /Users/remykartzman/Sites/travel-app/kingskee/wp-config-local.php(101): require_once('/Users/remykart...')
+#5 /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php(20): require_once('/Users/remykart...')
+#6 /Users/remykartzman/Sites/travel-app/kingskee/wp-load.php(37): require_once('/Users/remykart...')
+#7 /Users/remykartzman/Sites/travel-app/kingskee/wp-blog-header.php(13): require_once('/Users/remyka in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 41
+[06-Apr-2018 15:52:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function cn_custom_post_type_event() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php:41
+Stack trace:
+#0 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(286): cn_register_custom_post_types('')
+#1 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/remykartzman/Sites/travel-app/kingskee/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /Users/remykartzman/Sites/travel-app/kingskee/wp-settings.php(450): do_action('init')
+#4 /Users/remykartzman/Sites/travel-app/kingskee/wp-config-local.php(101): require_once('/Users/remykart...')
+#5 /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php(20): require_once('/Users/remykart...')
+#6 /Users/remykartzman/Sites/travel-app/kingskee/wp-load.php(37): require_once('/Users/remykart...')
+#7 /Users/remykartzman/Sites/travel-app/kingskee/wp-blog-header.php(13): require_once('/Users/remyka in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 41
+[06-Apr-2018 15:53:03 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 129
+[06-Apr-2018 15:53:25 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 133
+[06-Apr-2018 15:53:56 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 15:54:14 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:00:56 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:00:56 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:00:56 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 16:00:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 16:00:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 16:00:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 16:03:00 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:03:00 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:03:00 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 16:03:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 16:03:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 16:03:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 16:03:13 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:03:13 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 130
+[06-Apr-2018 16:03:13 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 131
+[06-Apr-2018 16:03:13 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 132
+[06-Apr-2018 16:03:13 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 133
+[06-Apr-2018 16:04:02 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:02 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:02 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 16:04:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 16:04:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 16:04:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 16:04:10 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:10 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 130
+[06-Apr-2018 16:04:10 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 131
+[06-Apr-2018 16:04:10 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 132
+[06-Apr-2018 16:04:10 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 133
+[06-Apr-2018 16:04:42 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:43 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:43 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 16:04:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 16:04:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 16:04:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 16:04:48 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:48 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:48 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 16:04:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 16:04:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 16:04:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 16:04:54 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:55 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:04:55 UTC] PHP Notice:  Trying to get property of non-object in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 2
+[06-Apr-2018 16:04:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 15
+[06-Apr-2018 16:04:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 61
+[06-Apr-2018 16:04:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 169
+[06-Apr-2018 16:05:10 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:05:10 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 130
+[06-Apr-2018 16:05:10 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 131
+[06-Apr-2018 16:05:10 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 132
+[06-Apr-2018 16:05:10 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 133
+[06-Apr-2018 16:06:04 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:07:23 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:07:32 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:07:32 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 130
+[06-Apr-2018 16:07:32 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 131
+[06-Apr-2018 16:07:32 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 132
+[06-Apr-2018 16:07:32 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 133
+[06-Apr-2018 16:09:05 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:09:13 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:09:13 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 121
+[06-Apr-2018 16:09:13 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 122
+[06-Apr-2018 16:09:13 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 123
+[06-Apr-2018 16:09:13 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 124
+[06-Apr-2018 16:09:13 UTC] PHP Notice:  Undefined variable: email_from in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 131
+[06-Apr-2018 16:11:29 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:11:38 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:11:38 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 121
+[06-Apr-2018 16:11:38 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 122
+[06-Apr-2018 16:11:38 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 123
+[06-Apr-2018 16:11:38 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 124
+[06-Apr-2018 16:11:38 UTC] PHP Notice:  Undefined variable: email_from in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 131
+[06-Apr-2018 16:14:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 128
+[06-Apr-2018 16:15:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 131
+[06-Apr-2018 16:15:37 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:15:46 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:15:46 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 121
+[06-Apr-2018 16:15:46 UTC] PHP Notice:  Undefined index: email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 122
+[06-Apr-2018 16:15:46 UTC] PHP Notice:  Undefined index: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 123
+[06-Apr-2018 16:15:46 UTC] PHP Notice:  Undefined index: budget in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 124
+[06-Apr-2018 16:16:35 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:17:34 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:17:42 UTC] PHP Notice:  Constant WP_DEBUG_LOG already defined in /Users/remykartzman/Sites/travel-app/kingskee/wp-config.php on line 151
+[06-Apr-2018 16:18:53 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 121
+[06-Apr-2018 16:20:18 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 121
+[06-Apr-2018 16:24:43 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 121
+[06-Apr-2018 16:27:08 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 121
+[06-Apr-2018 16:28:42 UTC] PHP Notice:  Undefined index: name in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 121
+[06-Apr-2018 16:36:18 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 126
+[06-Apr-2018 16:36:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 126
+[06-Apr-2018 16:36:49 UTC] PHP Notice:  Undefined variable: to in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 141
+[06-Apr-2018 16:36:49 UTC] PHP Notice:  Undefined variable: email_subject in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 141
+[06-Apr-2018 16:36:49 UTC] PHP Notice:  Undefined variable: activity in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 141
+[06-Apr-2018 16:36:49 UTC] PHP Notice:  Undefined variable: visitor_email in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 141
+[06-Apr-2018 16:42:43 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 141
+[06-Apr-2018 16:42:46 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/functions.php on line 141
+[06-Apr-2018 16:51:26 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /Users/remykartzman/Sites/travel-app/kingskee/wp-content/themes/kingskee/templates/home.php on line 104

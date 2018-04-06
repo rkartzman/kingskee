@@ -78,9 +78,9 @@
 
 
     .nav-wrap {
-        background-color: $dark;
+        background-color: transparent;
         position: absolute;
-        top: 40px;
+        top: 36px;
         left: 0;
         width: 100%;
         overflow: hidden;
@@ -89,6 +89,7 @@
         display: block;
         @include breakpoint(tablet) {
             background-color: transparent;
+            top: 47px;
         }
 
     }
@@ -128,7 +129,7 @@
     }
 
     ul {
-        padding: 0 80px;
+        padding: 0;
         position: relative;
         overflow: auto;
         width: 100%;
@@ -137,16 +138,23 @@
         margin: 0;
         white-space: nowrap;
         z-index: $z1;
-        display: none;
+        display: block;
         @include breakpoint(tablet) {
-            display: block;
+            padding: 0 80px;
         }
+        
         li {
+            display: none;
+            @include breakpoint(tablet) {
+                display: inline-block;
+            }
+            &.trip__finder {
+                display: inline-block;
+            }
             
             list-style-type: none;
             padding: 0;
             color: $white;
-            display: inline-block;
             position: relative;
             // line-height: $desktop-header-height;
             overflow: hidden;

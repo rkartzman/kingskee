@@ -95,6 +95,15 @@
 		}
 	} 
 	&.how-it-works {
+			max-height: none;
+			min-height: 100vh;
+			height: auto;
+		@include breakpoint(mobileLarge) {
+			min-height: 100vh;
+			max-height: 100%;
+			height: 100vh;
+
+		}
 		.contain {
 			top: initial;
 			transform: none;
@@ -109,10 +118,11 @@
 	}
 	&.main__form {
 		overflow: visible;
+		z-index: 1;
 		.contain {
 			.form__wrapper {
 				padding: 60px 48px;
-				@include breakpoint(mobileLarge) {
+				@include breakpoint(tabletLarge) {
 					padding: 0;
 				}
 				

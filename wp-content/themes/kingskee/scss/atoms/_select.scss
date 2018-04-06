@@ -43,12 +43,26 @@ select {
 		margin-bottom: 40px;
 		.button__wrapper {
 			margin-top: 50px;
+			display: block;
+			a {
+				position: relative;
+			}
 		}
 		&.input {
-			display: flex;
+			display: block;
+			margin-bottom: 20px;
+			@include breakpoint(tablet) {
+				display: flex;
+				margin-top: 0;
+
+			}
 			.input__wrapper {
 				max-width: 300px;
 				width: 100%;
+				margin-bottom: 20px;
+				@include breakpoint(tablet + 1px) {
+					margin-bottom: 0px;
+				}
 			}
 		}
 

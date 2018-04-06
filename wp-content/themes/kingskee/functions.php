@@ -17,6 +17,8 @@ function cn_menus() {
 }
 add_action( 'init', 'cn_menus' );
 
+
+
 add_filter('acf/settings/google_api_key', function () {
     return 'AIzaSyC9whyiAa6-otOP8QMrQvjI-rfnf4dNXF4';
 });
@@ -113,3 +115,28 @@ function cn_custom_post_type_testimonial() {
         )
     );
 }
+
+
+function submit_email() {
+    if( isset( $_POST[ 'data' ]) ) {
+        parse_str( $_POST[ 'data' ], $data );
+        // die( json_encode( $data ) );
+        // var_dump($data);
+        $visitor_email = $data['email'];
+        $activity = $data['activity'];
+        $budget = $data['budget'];
+        $to = "remykartzman@gmail.com";
+        $email_subject = "New Form submission";
+        $mailBody="Activity: $activity \n Budget: $budget\n ";
+        
+        mail($to, $email_subject ,$mailBody, "From: $visitor_email");
+    }
+
+    
+    
+    
+}
+
+
+add_action('wp_ajax_submit_email', 'submit_email');
+add_action('wp_ajax_nopriv_submit_email', 'submit_email');
